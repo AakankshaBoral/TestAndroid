@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@+id/mainlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.hotel_management.Menuentry">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/menunametxt"
+        android:text="Menu Name"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/menunameedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menunametxt"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/menunameedittext"
+        android:id="@+id/pricetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Price"/>
+
+    <EditText
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/priceedittxt"
+        android:layout_below="@id/pricetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/insertbtn"
+        android:textSize="25dp"
+        android:text="Insert Menu"
+        android:layout_below="@id/priceedittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="insert"/>
+
+
+
+</RelativeLayout>

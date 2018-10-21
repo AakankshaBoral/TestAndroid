@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mainlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+    
+   <TextView
+       android:paddingTop="10dp"
+       android:textColor="@color/Maroon"
+       android:gravity="center_horizontal"
+       android:id="@+id/welcometxt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Welcome to Le Cafe Gourmand"
+       android:fontFamily="cursive"
+       android:paddingBottom="10dp"
+       android:paddingLeft="5dp"
+       android:textSize="35dp"/>
+
+    <ImageView
+
+        android:id="@+id/welcomeimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/imageslecafe"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/welcometxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@id/welcomeimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_alignParentBottom="false"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Customer"
+            android:onClick="customer"/>
+
+        <Button
+            android:id="@+id/owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Owner"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="owner"/>
+
+        <Button
+            android:id="@+id/waiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Waiter"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_alignTop="@+id/button2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="waiter"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

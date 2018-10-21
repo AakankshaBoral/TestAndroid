@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.hotel_management.Waiter_registration">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/waiternametxt"
+        android:text="Waiter Name"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/waiternameedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_below="@id/waiternametxt"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/waiternameedittext"
+        android:id="@+id/emailtxtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Waiter Email Id"/>
+
+    <EditText
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/waiteremailedittext"
+        android:layout_below="@id/emailtxtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/waiteremailedittext"
+        android:id="@+id/passwordtxtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Password"/>
+
+    <EditText
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/passwordedittext"
+        android:layout_below="@id/passwordtxtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/passwordedittext"
+        android:id="@+id/mobilnotxtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Mobile No."/>
+
+    <EditText
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/mobilenoedittext"
+        android:layout_below="@id/mobilnotxtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/insertbtn"
+        android:textSize="25dp"
+        android:text="Insert"
+        android:layout_below="@id/mobilenoedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="insert"/>
+
+
+</RelativeLayout>
