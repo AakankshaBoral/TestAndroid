@@ -4,6 +4,8 @@ package com.example.dell.myapplication.activities;
  * Created by dell on 31-07-2018.
  */
 
+// Menus.Java
+
 public class Menus {
 
 
