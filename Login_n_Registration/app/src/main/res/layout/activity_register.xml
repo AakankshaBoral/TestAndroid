@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.login_n_registration.Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:paddingTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_launcher_round"
+                android:layout_width="55dp"
+                android:layout_height="55dp"/>
+
+            <TextView
+                android:id="@+id/firstnametextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="First Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/firstnameedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/lastnametextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Last Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/lastnameedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/gendertextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/genderedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:id="@+id/dobtextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Date Of Birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/dobedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/mobilenotextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Mobile No."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/mobilenoedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/registreemailtextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Email Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/registeremailedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/registerpasstextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/registerpassedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/flatnotextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Flat No."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/flatnoedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/wingnotextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Wing No."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/wingnoedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/addresstextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addressedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/maritalstatustextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Marital Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/maritalstatusedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/familycounttextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Family Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/familycountedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/educationtextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/educationedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/occupationtextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/occupationedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/anniversarytextview"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text="Anniversary Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/anniversaryedittext"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:id="@+id/register"
+                android:text="Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:id="@+id/login"
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:paddingTop="10dp"
+                android:id="@+id/register_connectivity"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:textColor="@color/Black"
+                android:textSize="25dp"
+                android:text=" "
+                android:id="@+id/register_jsonresulttextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

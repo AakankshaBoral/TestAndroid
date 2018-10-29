@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.login_n_registration.MainActivity">
+
+    <TextView
+        android:id="@+id/email_textview"
+        android:padding="10dp"
+        android:text="Email"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:textSize="25dp"
+        android:textColor="@color/Black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/password_textview"
+        android:padding="10dp"
+        android:text="Password"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:textSize="25dp"
+        android:textColor="@color/Black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:text="Login"
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/Maroon"
+        android:textSize="25dp"
+        android:text="New To Test Web API? Register Here"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/resgister_button"
+        android:padding="10dp"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/main_connectivity"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:text=" "
+        android:id="@+id/main_jsonresulttextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
