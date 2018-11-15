@@ -1,0 +1,97 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.mytask.AddTaskActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:id="@+id/tasknametxt"
+                android:text="Enter Task Name"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/tasknameedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tasknametxt"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/tasknameedittext"
+                android:id="@+id/datetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Enter Date"/>
+
+            <EditText
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/datedittxt"
+                android:layout_below="@id/datetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/datedittxt"
+                android:id="@+id/timetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Enter Time"/>
+
+            <EditText
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/timeedittxt"
+                android:layout_below="@id/timetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/insertbtn"
+                android:textSize="25dp"
+                android:text="Insert Task"
+                android:layout_below="@id/timeedittxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:layout_below="@id/insertbtn"
+                android:id="@+id/backbtn"
+                android:textSize="25dp"
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

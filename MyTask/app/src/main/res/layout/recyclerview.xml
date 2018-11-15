@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:background="@color/Black"
+              android:clickable="true"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="2dp"
+              android:paddingBottom="2dp">
+
+    <TextView
+        android:text="Meeting at 4 pm"
+        android:id="@+id/tasktitle"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="15/11/2018"
+        android:id="@+id/date"
+        android:textSize="25sp"
+        android:textColor="@color/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="19:37"
+        android:id="@+id/Time"
+        android:textSize="25sp"
+        android:textColor="@color/Lime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
