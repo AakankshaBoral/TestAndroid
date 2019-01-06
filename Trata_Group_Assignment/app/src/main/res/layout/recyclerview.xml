@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_margin="5dp"
+              android:clickable="true"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="2dp"
+              android:paddingBottom="2dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:text="Aakanksha"
+        android:id="@+id/firstname_recycler_textview"
+        android:textSize="25sp"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Boral"
+        android:id="@+id/lastname_recycler_textview"
+        android:textSize="25sp"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="25/04/1989"
+        android:id="@+id/dob_recycler_textview"
+        android:textSize="25sp"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Female"
+        android:id="@+id/gender_recycler_textview"
+        android:textSize="25sp"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

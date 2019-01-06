@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.trata_group_assignment.Details">
+
+   <TextView
+       android:id="@+id/first_name_text_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="First Name"
+       android:textSize="25dp"
+       android:textColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/first_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:id="@+id/last_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/last_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:id="@+id/dob_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Of Birth"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/dob_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:id="@+id/gender_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/gender_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+    <Button
+        android:paddingTop="5dp"
+        android:text="Save"
+        android:textColor="@color/Black"
+        android:id="@+id/save_button"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+ <Button
+     android:paddingTop="5dp"
+     android:text="Back"
+     android:textColor="@color/Black"
+     android:id="@+id/back_button"
+     android:textSize="25dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
