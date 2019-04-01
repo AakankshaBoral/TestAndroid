@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.gogaga_assignment.MainActivity">
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/textview1"
+        android:textColor="@color/Black"
+        android:fontFamily="sans-serif"
+        android:text="Connect two of your friends and be"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="their matchmaker"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/trophy"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        app:civ_shadow_color="#8BC34A"/>
+
+    <TextView
+        android:text="50+"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/Maroon"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:text="Wingman Rank"
+        android:textStyle="bold"
+        android:textColor="@color/Maroon"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Your rank depends on the number of friends"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/Black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/Black"
+        android:text="on GoGaga app,number of matches you"
+        android:paddingTop="1dp"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="make,among others"
+        android:paddingTop="1dp"
+        android:textSize="15dp"
+        android:textColor="@color/Black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Rank"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Points"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:gravity="end"
+            android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"
+        android:scrollbars="vertical">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

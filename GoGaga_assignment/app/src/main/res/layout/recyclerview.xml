@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="4">
+
+    <TextView
+        android:text="1"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textSize="25dp"
+        android:layout_gravity="start"
+        android:textColor="@color/Black"
+        android:id="@+id/rank_recyclertextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularimageview_recyclerimage"
+        android:layout_width="25dp"
+        android:layout_weight="1"
+        app:paddingStart="5dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="left"
+        android:paddingLeft="70dp"
+        android:paddingStart="40dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/trophy"
+        />
+
+    <TextView
+        android:id="@+id/name_recyclertextview"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarthak"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:text="1600"
+        android:gravity="end"
+        android:layout_gravity="end"
+        android:textSize="25dp"
+        android:textColor="@color/Black"
+        android:layout_weight="1"
+        android:id="@+id/points_recyclertextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
