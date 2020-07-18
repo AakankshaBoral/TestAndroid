@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/enter_mobile_no_textview"
+            android:layout_marginTop="25dp"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Mobile Number"
+            android:layout_gravity="center_vertical"
+             />
+
+        <EditText
+            android:hint="Enter mobile no"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/mobile_no_edittext"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <Button
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="25dp"
+            android:id="@+id/dial_button"
+            android:text="Dial"
+            android:textSize="25dp"
+            android:onClick="btnclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
