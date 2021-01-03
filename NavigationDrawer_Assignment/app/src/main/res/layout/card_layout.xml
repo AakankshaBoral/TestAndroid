@@ -1,0 +1,22 @@
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:textColor="#000000"
+            android:text="Java Session 1 - Introduction to Java"
+            android:textSize="30dp"
+            android:id="@+id/cardlayout_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

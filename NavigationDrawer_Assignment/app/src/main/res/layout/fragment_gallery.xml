@@ -1,22 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    android:id="@+id/invite_friends_layout"
+    android:weightSum="9"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.gallery.GalleryFragment">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
-        android:id="@+id/text_invite_friends"
+        android:id="@+id/invite_friends_textview"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:text="Invite Friends"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/share_your_experience"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Share your awesome learning experience at our platform with you friends"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/invite_friends2"
+        android:id="@+id/invite_friends_img"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_weight="4"
+        android:contentDescription="TODO" />
+    
+    <TextView
+        android:id="@+id/invite_via_textview"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="Invite via"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:background="@drawable/facebook"
+        android:layout_weight="1"
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/whatsapp"
+        android:layout_weight="1"
+        android:id="@+id/whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/twitter"
+        android:layout_weight="1"
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/directmessage"
+        android:layout_weight="1"
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
