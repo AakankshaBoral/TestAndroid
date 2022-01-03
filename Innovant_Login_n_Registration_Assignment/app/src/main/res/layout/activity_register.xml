@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativelayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--android:padding="16dp"-->
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/Black"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="First Name"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Last Name"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+
+        <EditText
+            android:id="@+id/Gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Gender"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/DOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="DOB"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/PhoneCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Phone Code"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+        <!-- Login Button -->
+
+
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Phone Number"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+      <!--  <ImageView
+            android:id="@+id/pic"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>-->
+
+        <EditText
+            android:id="@+id/devicetype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Device Type"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/device_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Device Token"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="App Version"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/os_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="OS Version"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/device_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Device Model"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+
+
+        <EditText
+            android:id="@+id/newsletter_subscribed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Newsletter Subscribed"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@null"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="Register Here"
+            android:textColor="@color/Black"
+            android:onClick="register_user"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+

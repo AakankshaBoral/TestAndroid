@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativelayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/Black"
+                android:layout_weight="1"
+                 />
+
+        <EditText
+            android:id="@+id/devicetype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Device Type"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/devicemodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Device Model"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+
+        <EditText
+            android:id="@+id/Appversion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="App Version"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/Os_Version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Os Version"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+
+        <EditText
+            android:id="@+id/Devicetoken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Device Token"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:textColor="@color/Black" />
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/Silver"
+            android:text="Login"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:onClick="register_function"
+            android:textColor="@android:color/black"
+            />
+
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="Register Here"
+            android:textColor="@color/Black"
+            android:onClick="login_function"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
